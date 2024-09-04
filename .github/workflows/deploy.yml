@@ -32,7 +32,7 @@ jobs:
 
       - name: Debug Build Directory
         run: du -sh ./build && find ./build -type l
-
+  
       - name: Upload build artifacts
         uses: actions/upload-artifact@v3
         with:
@@ -47,3 +47,4 @@ jobs:
         uses: actions/deploy-pages@v3
         with:
           artifact_name: build-artifact
+          preview: false
