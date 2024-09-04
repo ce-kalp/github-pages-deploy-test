@@ -2,6 +2,7 @@
   "name": "codeberry-interview-test-1",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ce-kalp.github.io/github-pages-deploy-test",
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
